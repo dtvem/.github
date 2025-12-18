@@ -1,12 +1,37 @@
-## Hi there 👋
+# dtvem
 
-<!--
+**Developer Tools Virtual Environment Manager** — a cross-platform runtime version manager that actually works on Windows.
 
-**Here are some ideas to get you started:**
+Manage Python, Node.js, Ruby, and more with a single tool. No shell hacks. No surprises.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Quick Install
+
+**Windows (PowerShell)**
+```powershell
+irm dtvem.io/install.ps1 | iex
+```
+
+**macOS / Linux**
+```bash
+curl -fsSL dtvem.io/install.sh | bash
+```
+
+## Why dtvem?
+
+- **Windows first-class** — Built from the ground up to work seamlessly on Windows
+- **Shim-based architecture** — No shell integration required, no `.bashrc` or `.zshrc` modifications
+- **Project-local versions** — Automatic version switching per directory
+- **Multiple runtimes** — Python, Node.js, Ruby, and more coming soon
+
+## Get Started
+
+- [Documentation](https://dtvem.io/docs/user-guide/getting-started) — Installation guide and tutorials
+- [Commands Reference](https://dtvem.io/docs/user-guide/commands/overview) — Full command documentation
+- [Migration Guide](https://dtvem.io/docs/user-guide/migration) — Migrate from pyenv, nvm, asdf, and others
+
+## Repositories
+
+| Repo | Description |
+|------|-------------|
+| [dtvem](https://github.com/dtvem/dtvem) | The CLI tool (written in Go) |
+| [dtvem.io](https://github.com/dtvem/dtvem.io) | Website and documentation |
